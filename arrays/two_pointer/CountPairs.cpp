@@ -1,6 +1,7 @@
 class Solution {
 public:
-    int countPairs(vector<int>& nums, int target) {
+    int countPairs(vector<int>& nums, int target)
+{
         sort(nums.begin(), nums.end());
 
         int count = 0;
