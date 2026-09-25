@@ -1,8 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-int main()
-{
+int main() {
     int Size = 0;
     float *Marks = NULL;
     int i = 0;
@@ -20,8 +19,7 @@ int main()
 
     // Interation
 //    1      2     3
-for(i = 0; i < Size; i++)
-{
+for(i = 0; i < Size; i++){
        scanf("%f",&Marks[i]);   // 4
 }  
 
