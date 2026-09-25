@@ -1,10 +1,8 @@
-int cmp(const void *a, const void *b) 
-{
+int cmp(const void *a, const void *b) {
     return (*(int*)a - *(int*)b);
 }
 
-int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** returnColumnSizes)
-{
+int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** returnColumnSizes) {
     qsort(nums, numsSize, sizeof(int), cmp);
 
     int capacity = 100; // initial guess, will grow if needed
