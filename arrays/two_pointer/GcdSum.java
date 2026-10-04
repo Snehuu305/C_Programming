@@ -1,6 +1,5 @@
 class Solution {
-    public long gcdSum(int[] nums) 
-    {
+    public long gcdSum(int[] nums)  {
         int[] prefixGcd = new int[nums.length];
         int max = -1;
 
