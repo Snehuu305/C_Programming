@@ -1,7 +1,6 @@
 #include <stdlib.h>
 
-int* sortArrayByParity(int* nums, int numsSize, int* returnSize)
-{
+int* sortArrayByParity(int* nums, int numsSize, int* returnSize) {
     int* result = (int*)malloc(numsSize * sizeof(int));
     int left = 0;
     int right = numsSize - 1;
