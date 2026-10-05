@@ -6,8 +6,7 @@ int* sortArrayByParity(int* nums, int numsSize, int* returnSize) {
     int right = numsSize - 1;
     int i = 0;
 
-    while (i < numsSize && left <= right)
-    {
+    while (i < numsSize && left <= right) {
         if (nums[i] % 2 == 0)
         {
             result[left] = nums[i];
