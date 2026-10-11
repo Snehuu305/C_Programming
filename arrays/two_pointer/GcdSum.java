@@ -3,7 +3,7 @@ class Solution {
         int[] prefixGcd = new int[nums.length];
         int max = -1;
 
-        for (int i = 0; i < nums.length; i++)
+        for (int i = 0; i < nums.length; i++) 
         {
             max = Math.max(max, nums[i]);
             prefixGcd[i] = gcd(max, nums[i]);
