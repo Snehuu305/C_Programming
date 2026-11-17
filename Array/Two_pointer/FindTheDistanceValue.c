@@ -1,7 +1,8 @@
 #include <stdlib.h> 
 #include <stdbool.h> 
 
-bool f(int k, int* arr, int arrSize, int d) {
+bool f(int k, int* arr, int arrSize, int d) 
+{
     for (int i = 0; i < arrSize; i++) {
         int result = abs(arr[i] - k);
         if (result <= d) {
