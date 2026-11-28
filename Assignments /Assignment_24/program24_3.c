@@ -9,7 +9,7 @@ int chkChar(char *str, char ch)
 
     while() 
     {
-        if(*str == ch) 
+        if(*str == ch)
         {
               iPos = iCnt;
               break;
